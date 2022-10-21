@@ -15,5 +15,5 @@ def newDeploy(jobname,ip,context)
 
 def runSalenium(jobname)
 {
-  sh 'java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar' 
+  sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar" 
 }
